@@ -11,14 +11,14 @@
 5.기본적인 UI를 조금 바꿔봤습니다! <br/>
 <br/><br/>
 각 layout 요소 ID)<br/>
-<login layout> : 로그인하는 레이아웃<br/>
+-login layout : 로그인하는 레이아웃<br/>
 textview : 50,35<br/>
 1.@+id/editTextText ->아이디 입력 받는칸 <br/>
 2.@+id/editTextNumberPassword ->비밀번호 입력 받는칸<br/>
 3.@+id/go_to_register_btn ->회원가입 버튼<br/>
 4.@+id/go_to_login_btn ->로그인버튼<br/>
 <br/><br/>
-<sign_up layout> : 회원가입 레이아웃<br/>
+-sign_up layout : 회원가입 레이아웃<br/>
 1.@+id/imageView<br/>
 2.@+id/Et_s_id ->아이디 입력받는곳<br/>
 3.@+id/Et_s_pw->비밀번호 입력받는곳<br/>
@@ -30,7 +30,7 @@ textview : 50,35<br/>
 9.@+id/Tv_s_go" ->활동수치 보러가기<br/>
 10.@+id/Btn_s_register ->회원가입 완료<br/>
 <br/><br/>
-<mainactivity layout> : 앱의 메인이되는곳<br/>
+-mainactivity layout : 앱의 메인이되는곳<br/>
 1.@+id/setting_btn ->세팅을하는 버튼<br/>
 2.@+id/calender_btn->캘린더 버튼(다이어리)<br/>
 3.@+id/chatbot_btn ->gpt버튼<br/>
