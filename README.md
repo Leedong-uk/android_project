@@ -10,7 +10,7 @@
   ㄴ프로필사진 클릭시 수정 페이지까진 만들었지만 , 데이터 수정 부분은 만드는 중입니다<br/>
 5.기본적인 UI를 조금 바꿔봤습니다! <br/>
 <br/><br/>
-각 layout 요소?들 ID) <br/>
+각 layout 요소 ID)<br/>
 <login layout> : 로그인하는 레이아웃<br/>
 textview : 50,35<br/>
 1.@+id/editTextText ->아이디 입력 받는칸 <br/>
