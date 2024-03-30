@@ -11,7 +11,7 @@
 5.기본적인 UI를 조금 바꿔봤습니다! <br/>
 <br/><br/>
 각 layout 요소 ID)<br/>
-<login layout>: 로그인하는 레이아웃<br/>
+<login layout> : 로그인하는 레이아웃<br/>
 textview : 50,35<br/>
 1.@+id/editTextText ->아이디 입력 받는칸 <br/>
 2.@+id/editTextNumberPassword ->비밀번호 입력 받는칸<br/>
