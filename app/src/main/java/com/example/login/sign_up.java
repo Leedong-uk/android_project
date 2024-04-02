@@ -103,7 +103,7 @@ public class sign_up extends AppCompatActivity {
                             account.setPassword(strPwd);
                             account.setDog_name(strName);
                             account.setDog_age(strAge);
-                            account.setDong_weight(strWeight);
+                            account.setDog_weight(strWeight);
                             account.setActive_rate(strActiveRate);
                             account.setAllergy(strAllergy);
                             account.setProfile(imageUrl);
@@ -144,7 +144,8 @@ public class sign_up extends AppCompatActivity {
     }
     private void uploadImageToFirebase(Uri imageUri) {
         StorageReference storageRef = FirebaseStorage.getInstance().getReference().child("profile_images");
-        StorageReference imageRef = storageRef.child("user_id.jpg");
+        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        StorageReference imageRef = storageRef.child(firebaseUser.getUid() + ".jpg");
 
         UploadTask uploadTask = imageRef.putFile(imageUri);
         uploadTask.continueWithTask(task -> {

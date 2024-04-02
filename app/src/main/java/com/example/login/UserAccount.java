@@ -9,7 +9,7 @@ public class UserAccount {
     private String password;
     private String dog_name;
     private String dog_age;
-    private String dong_weight;
+    private String dog_weight;
     private String active_rate;
     private String allergy;
     private String profile;
@@ -38,9 +38,9 @@ public class UserAccount {
 
     public void setDog_age(String dog_age) {this.dog_age = dog_age;}
 
-    public String getDong_weight() {return dong_weight;}
+    public String getDog_weight() {return dog_weight;}
 
-    public void setDong_weight(String dong_weight) {this.dong_weight = dong_weight;}
+    public void setDog_weight(String dong_weight) {this.dog_weight = dong_weight;}
 
     public String getActive_rate() {return active_rate;}
 

@@ -3,6 +3,7 @@ package com.example.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("DoggyDine");
         CircleImageView settingBtn = findViewById(R.id.setting_btn);
+        ImageButton feed_btn = (ImageButton)findViewById(R.id.feed_btn);
         FirebaseUser currentUser = mFirebaseAuth.getCurrentUser();
 
 
@@ -79,5 +81,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        feed_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,Feeding.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
